@@ -15,5 +15,5 @@ func HandleRequest() {
 	r.PATCH("/alunos/:id", controllers.EditarAluno)
 	r.GET("/alunos/cpf/:cpf", controllers.BuscaAlunoPorCPF)
 	r.GET("/alunos/", controllers.BuscaAlunoPorCPF)
-	r.Run()
+	_ = r.Run()
 }
