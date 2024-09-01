@@ -21,8 +21,6 @@ services:
     depends_on:
       - postgres
 
-<<<<<<< Updated upstream
-=======
   app:
     image: golang:1.22
     command:
@@ -42,4 +40,3 @@ services:
       - DB_PASSWORD=root
       - DB_NAME=root
       - DB_PORT=5432
->>>>>>> Stashed changes
