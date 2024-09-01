@@ -5,9 +5,9 @@ name: Continuous Integration
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "aula_1" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "aula_1" ]
 
 jobs:
 
